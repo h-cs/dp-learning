@@ -6,6 +6,16 @@ package com.hcs.abstractfactory.pc;
  * @date: 2018/11/7 14:00
  */
 public interface PcFactory {
+
+    /**
+     * 生产显示器
+     * @return
+     */
     Display createDisplay();
+
+    /**
+     * 生产键盘
+     * @return
+     */
     Keyboard createKeyboard();
 }
